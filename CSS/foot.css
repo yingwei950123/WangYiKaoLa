@@ -1,0 +1,99 @@
+.foot .foot-one {
+  height: 147px;
+  border-bottom: 1px solid #ccc;
+}
+.foot .foot-one ul {
+  width: 100%;
+  display: flex;
+}
+.foot .foot-one ul li {
+  flex: 1;
+  height: 147px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.foot .foot-one ul li .footOneItem {
+  height: 47px;
+}
+.foot .foot-one ul li .footOneItem .foorIcon {
+  height: 44px;
+  width: 44px;
+  text-align: center;
+  line-height: 44px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.foot .foot-one ul li .footOneItem h3 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+.foot .foot-one ul li .footOneItem p {
+  color: #000;
+}
+.foot .foot-two {
+  padding: 45px 0;
+  display: flex;
+}
+.foot .foot-two .footTwoLeft {
+  flex: 2;
+}
+.foot .foot-two .footTwoLeft .footLogo {
+  width: 100%;
+}
+.foot .foot-two .footTwoLeft .footLogo a {
+  display: block;
+  width: 100%;
+}
+.foot .foot-two .footTwoLeft .footLogo a img {
+  display: block;
+  width: 60%;
+}
+.foot .foot-two .footTwoLeft .footContact {
+  margin-top: 10px;
+}
+.foot .foot-two .footTwoLeft .footContact img {
+  vertical-align: middle;
+  margin: 0 6px;
+}
+.foot .foot-two .footTwoMid {
+  flex: 4;
+  display: flex;
+}
+.foot .foot-two .footTwoMid dl {
+  float: left;
+  flex: 1;
+}
+.foot .foot-two .footTwoMid dl dt {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.foot .foot-two .footTwoMid dl dd {
+  line-height: 29px;
+}
+.foot .foot-two .footTwoRight {
+  flex: 1;
+  text-align: center;
+}
+.foot .foot-Three {
+  background-color: #333;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  line-height: 30px;
+}
+.foot .foot-Three img {
+  vertical-align: middle;
+}
+.foot .foot-Three a {
+  color: #c2c2c2;
+}
+.foot .foot-Three .lastLinks img {
+  height: 30px;
+  margin-right: 6px;
+}

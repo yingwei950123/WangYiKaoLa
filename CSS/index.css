@@ -1,0 +1,1209 @@
+html,
+body {
+  width: 100%;
+}
+.titleLeft strong {
+  font-size: 24px;
+  color: #000;
+  padding-right: 10px;
+}
+.titleLeft span {
+  font-size: 15px;
+  margin-right: 10px;
+  color: #999;
+  margin-top: 2px;
+}
+.titleRight a {
+  font-size: 15px;
+  color: #999;
+  padding-right: 20px;
+}
+.title {
+  height: 76px;
+  line-height: 73px;
+  width: 100%;
+}
+.topBanner {
+  width: 100%;
+}
+.topBanner a {
+  display: block;
+}
+.topBanner a img {
+  width: 100%;
+  display: block;
+}
+.topNav {
+  height: 30px;
+  width: 100%;
+  background-color: #000;
+  color: #ccc;
+  line-height: 30px;
+}
+.topNav li a {
+  display: block;
+  padding: 0 20px;
+  color: #999;
+}
+.topNav li a:hover {
+  color: #ff2337;
+}
+.topNav .leftNav a:hover {
+  color: #fff;
+}
+.topNav .leftNav .tel {
+  position: relative;
+}
+.topNav .leftNav .erweima {
+  display: none;
+  position: absolute;
+  z-index: 200;
+  text-align: center;
+  width: 116px;
+  padding-top: 10px;
+  left: -10px;
+  background-color: #fff;
+}
+.topNav .leftNav .erweima div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #fff;
+}
+.topNav .leftNav .erweima p {
+  line-height: 16px;
+  color: red;
+}
+.topNav .rightNav .left {
+  position: relative;
+}
+.topNav .rightNav .left .arr {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  margin-top: -2px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  border-color: #999 transparent transparent;
+  border-style: solid dashed dashed;
+  border-width: 4px 4px 0;
+}
+.topNav .rightNav .list {
+  line-height: 30px;
+  border: 1px solid #ccc;
+  position: absolute;
+  z-index: 200;
+  background-color: #fff;
+  border-top: none;
+  display: none;
+}
+.topNav .rightNav .list li {
+  margin: 0 4px;
+}
+.topNav .rightNav .list li a {
+  padding: 0 10px;
+  white-space: nowrap;
+}
+.topNav .rightNav .list .erweima {
+  position: relative;
+}
+.topNav .rightNav .list .erweima img {
+  position: absolute;
+  width: 100px;
+  left: -100px;
+  top: -20px;
+  display: none;
+}
+.search {
+  background-color: #fff;
+  padding: 10px 0;
+  width: 100%;
+}
+.search .warper {
+  display: flex;
+}
+.search .warper .leftLogo {
+  flex: 3;
+}
+.search .warper .leftLogo a {
+  display: block;
+  width: 100%;
+  height: 65px;
+  background: url("../img/uploads/logo.png") no-repeat left center;
+  background-size: 70%;
+}
+.search .warper .midSearch {
+  flex: 7;
+}
+.search .warper .midSearch .searchBtn {
+  height: 36px;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ff2337;
+  border-radius: 30px;
+  line-height: 36px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  position: relative;
+  font-size: 16px;
+}
+.search .warper .midSearch .searchBtn input[type=text] {
+  width: 88%;
+  font-size: 14px;
+  font-style: italic;
+}
+.search .warper .midSearch .searchBtn .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-image: linear-gradient(270deg, #ff2e64, #ff0003);
+  height: 35px;
+  width: 12%;
+  border-radius: 30px;
+}
+.search .warper .midSearch .searchBtn .btn input {
+  background: url("../img/icon/icon23.png") no-repeat center;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.search .warper .midSearch .searchTips {
+  width: 70%;
+  margin: 10px auto;
+}
+.search .warper .midSearch .searchTips ul {
+  width: 100%;
+  display: flex;
+}
+.search .warper .midSearch .searchTips ul li {
+  flex: 1;
+  text-align: center;
+}
+.search .warper .midSearch .searchTips ul li a:hover {
+  color: #ff2337;
+}
+.search .warper .rightCar {
+  flex: 2;
+}
+.search .warper .rightCar .car {
+  width: 60%;
+  height: 36px;
+  border: 1px solid #ff2337;
+  border-radius: 30px;
+}
+.search .warper .rightCar .car a {
+  display: block;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  background: url("../img/icon/icon2.png") no-repeat 20px center;
+  padding-left: 44px;
+}
+.search .warper .rightCar .car a:hover {
+  color: #ff2337;
+}
+.searchFixed {
+  position: fixed;
+  top: 0;
+  z-index: 202;
+  padding: 4px 0;
+}
+.mNav {
+  display: flex;
+  height: 40px;
+}
+.mNav .slide {
+  flex: 2;
+  position: relative;
+  z-index: 200;
+}
+.mNav .slide ul.menuList {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+}
+.mNav .slide ul.menuList li {
+  width: 100%;
+  background: linear-gradient(90deg, red, #ff3264);
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.mNav .slide ul.menuList li:first-child {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+}
+.mNav .slide ul.menuList li:first-child span {
+  padding: 0 12px;
+  color: #fff;
+}
+.mNav .slide ul.menuList li a {
+  display: block;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  font-size: 14px;
+}
+.mNav .slide ul.menuList li a img {
+  vertical-align: middle;
+  padding: 0 10px;
+}
+.mNav .slide ul.menuList li a .mouseON {
+  display: none;
+}
+.mNav .slide ul.menuList li a span {
+  font-family: '宋体';
+  float: right;
+  font-size: 16px;
+  padding-right: 30px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.mNav .slide ul.menuList .active {
+  background: #fff;
+}
+.mNav .slide ul.menuList .active a {
+  color: #ff2337;
+}
+.mNav .slide ul.menuList .active span {
+  color: #ff2337;
+}
+.mNav .slide .menuItem {
+  position: absolute;
+  left: 100%;
+  top: 40px;
+  z-index: 200;
+}
+.mNav .slide .menuItem img {
+  height: 440px;
+}
+.mNav .slide .menuItem .item {
+  display: none;
+}
+.mNav .slide .menuItem .active {
+  display: block;
+}
+.mNav .nav {
+  flex: 10;
+  display: flex;
+}
+.mNav .nav ul {
+  width: 100%;
+  display: flex;
+}
+.mNav .nav ul li {
+  flex: 1;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-weight: 700;
+  color: #000;
+}
+.mNav .nav ul li:first-child a {
+  color: #ff1e32;
+}
+.mNav .nav ul li a {
+  font-size: 15px;
+}
+.mNav .nav ul li a:hover {
+  color: #ff1e32;
+}
+.mBanner {
+  width: 100%;
+  position: relative;
+  height: 490px;
+  overflow: hidden;
+}
+.mBanner .imgBox {
+  width: 100%;
+}
+.mBanner .imgBox ul {
+  width: 100%;
+  position: relative;
+}
+.mBanner .imgBox ul li {
+  width: 100%;
+  position: absolute;
+}
+.mBanner .imgBox ul li a {
+  display: block;
+  width: 100%;
+}
+.mBanner .imgBox ul li a img {
+  display: block;
+  width: 100%;
+  height: 490px;
+}
+.mBanner .btn {
+  position: absolute;
+  height: 70px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  display: none;
+}
+.mBanner .btn div {
+  position: relative;
+}
+.mBanner .btn span {
+  display: block;
+  width: 32px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 26px;
+  font-family: '宋体';
+}
+.mBanner .btn span:first-child {
+  left: 190px;
+}
+.mBanner .btn span:last-child {
+  right: 0px;
+}
+.mBanner .dotteds {
+  position: absolute;
+  z-index: 100;
+  width: 700px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 70px;
+  height: 30px;
+}
+.mBanner .dotteds ul {
+  width: 100%;
+  height: 30px;
+}
+.mBanner .dotteds ul li {
+  height: 10px;
+  width: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.mBanner .dotteds ul li.active {
+  background-color: red;
+}
+.mBanner .botTip {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+.mBanner .botTip .tip {
+  height: 48px;
+  line-height: 48px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.mBanner .botTip .tip .tipsL {
+  width: 70%;
+}
+.mBanner .botTip .tip .tipsL ul {
+  width: 100%;
+  display: flex;
+}
+.mBanner .botTip .tip .tipsL ul li {
+  flex: 1;
+}
+.mBanner .botTip .tip .tipsL ul li a {
+  width: 100%;
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+.mBanner .botTip .tip .tipsR {
+  width: 30%;
+}
+.mBanner .botTip .tip .tipsR a {
+  display: block;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+.main {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #ccc;
+}
+.main .contentTop {
+  width: 100%;
+  background: url("../img/uploads/contentTop.jpg") no-repeat center;
+}
+.main .contentTop .conTop {
+  height: 332px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #ccc;
+}
+.main .contentTop .conTop a {
+  display: block;
+  width: 25%;
+  height: 332px;
+}
+.main .limitBuy {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.main .limitBuy .limitBuyTitle {
+  height: 73px;
+  line-height: 73px;
+  width: 100%;
+}
+.main .limitBuy .limitBuyTitle .titleLeft strong {
+  font-size: 24px;
+  color: #000;
+  padding-right: 10px;
+}
+.main .limitBuy .limitBuyTitle .titleLeft span {
+  font-size: 15px;
+  margin-right: 10px;
+  color: #999;
+  margin-top: 2px;
+}
+.main .limitBuy .limitBuyTitle .titleLeft .time {
+  display: flex;
+  align-items: center;
+}
+.main .limitBuy .limitBuyTitle .titleLeft .time i {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  font-style: normal;
+}
+.main .limitBuy .limitBuyTitle .titleLeft .time span {
+  margin: 0 5px;
+}
+.main .limitBuy .limitBuyTitle .titleLeft .time .ge {
+  transform: translateX(-6px);
+}
+.main .limitBuy .limitBuyTitle .titleRight a {
+  font-size: 15px;
+  color: #999;
+}
+.main .limitBuy .limitBuyContent {
+  width: 100%;
+  display: flex;
+}
+.main .limitBuy .limitBuyContent .leftcon {
+  width: 75%;
+}
+.main .limitBuy .limitBuyContent .leftcon ul {
+  width: 100%;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li {
+  width: 50%;
+  background-color: #fff;
+  height: 201px;
+  overflow: hidden;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a {
+  display: block;
+  width: 100%;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitImg {
+  width: 40%;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitImg img {
+  display: block;
+  width: 100%;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon {
+  width: 60%;
+  margin: 10px 0;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon p {
+  color: #ccc;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .price {
+  margin-top: 10px;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .price span {
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .price del {
+  color: #ccc;
+  padding-left: 10px;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .buy {
+  margin-top: 10px;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .buy .buyleft {
+  width: 65%;
+  margin-top: 6px;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .buy .buyleft .top {
+  width: 80%;
+  height: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .buy .buyleft .top div {
+  width: 60%;
+  height: 8px;
+  margin-top: 1px;
+  background-color: #ff1429;
+  border-radius: 4px;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .buy .buyleft .bot {
+  margin-top: 4px;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .buy .buyBtn {
+  width: 35%;
+}
+.main .limitBuy .limitBuyContent .leftcon ul li a .limitCon .buy .buyBtn span {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ff1429;
+  border-radius: 14px;
+  text-align: center;
+  color: #ff1429;
+}
+.main .limitBuy .limitBuyContent .rightcon {
+  width: 25%;
+  border: 1px solid #ccc;
+  border-left: none;
+  box-sizing: border-box;
+}
+.main .limitBuy .limitBuyContent .rightcon a {
+  display: block;
+  width: 100%;
+}
+.main .limitBuy .limitBuyContent .rightcon a img {
+  display: block;
+  width: 100%;
+}
+.main .hot .hotTitle {
+  height: 73px;
+  line-height: 73px;
+  width: 100%;
+}
+.main .hot .hotTitle .titleLeft strong {
+  font-size: 24px;
+  color: #000;
+  padding-right: 10px;
+}
+.main .hot .hotTitle .titleLeft span {
+  font-size: 15px;
+  margin-right: 10px;
+  color: #999;
+  margin-top: 2px;
+}
+.main .hot .hotTitle .titleRight a {
+  font-size: 15px;
+  color: #999;
+  padding-right: 20px;
+}
+.main .hot .hotcon {
+  width: 100%;
+  display: flex;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.main .hot .hotcon .hotconL {
+  flex: 1;
+  position: relative;
+}
+.main .hot .hotcon .hotconL li {
+  position: absolute;
+  width: 100%;
+}
+.main .hot .hotcon .hotconL li:first-child {
+  display: block;
+}
+.main .hot .hotcon .hotconL img {
+  display: block;
+  width: 100%;
+}
+.main .hot .hotcon .hotconL div.hotdes {
+  padding: 19px 0;
+  background-color: #414141;
+}
+.main .hot .hotcon .hotconL div.hotdes p {
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+.main .hot .hotcon .hotconL div.hotdes p:first-child {
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .hot .hotcon .hotconL div.hotdes p:last-child {
+  font-size: 16px;
+}
+.main .hot .hotcon .hotconL .hotconBtnL {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 30%;
+  height: 98px;
+  z-index: 200;
+}
+.main .hot .hotcon .hotconL .hotconBtnL span {
+  display: block;
+  height: 40px;
+  width: 26px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  font-family: '宋体';
+  font-size: 20px;
+}
+.main .hot .hotcon .hotconL .hotconBtnL span:hover {
+  cursor: pointer;
+}
+.main .hot .hotcon .hotconR {
+  flex: 4;
+}
+.main .hot .hotcon .hotconR ul {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+.main .hot .hotcon .hotconR ul li {
+  float: left;
+  width: 25%;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  box-sizing: border-box;
+  border-right: none;
+  background-color: #fff;
+  height: 159px;
+}
+.main .hot .hotcon .hotconR ul li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+.main .hot .hotcon .hotconR ul li a p {
+  color: #000;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+}
+.main .hot .hotcon .hotconR ul li a img {
+  width: 50%;
+}
+.main .hot .hotcon .hotconR ul li a .fugai {
+  position: absolute ;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.main .hot .hotcon .hotconR ul li a .fugai .watch {
+  width: 60px;
+  height: 20px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 20px;
+}
+.main .hot .hotcon .hotconR ul li a .fugai .fugaiDesc {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+.main .hot .hotcon .hotconR ul li a .fugai .fugaiDesc p {
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
+  font-weight: normal;
+  position: relative;
+}
+.main .hot .hotcon .hotconR ul li a .fugai .fugaiDesc .come {
+  width: 40%;
+  padding: 10px 0;
+  margin: 0 auto;
+  border: 1px solid #ff2337;
+  color: #ff2337;
+  border-radius: 20px;
+}
+.main .every {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+}
+.main .every .title {
+  height: 75px;
+}
+.main .every .everyCon {
+  width: 100%;
+}
+.main .every .everyCon ul {
+  width: 100%;
+}
+.main .every .everyCon ul li {
+  float: left;
+  width: 25%;
+  margin-bottom: 20px;
+}
+.main .every .everyCon ul li .everyitem {
+  width: 90%;
+  background-color: #fff;
+  height: 326px;
+}
+.main .every .everyCon ul li .everyitem a {
+  display: block;
+  width: 100%;
+}
+.main .every .everyCon ul li .everyitem a img {
+  width: 100%;
+}
+.main .every .everyCon ul li .everyitem a .itmedesc {
+  padding: 0 10px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #000;
+  /* 设置超出部分的显示方式 */
+  overflow: hidden;
+  /* 在文字末尾换行 */
+  word-break: break-all;
+  /* 文字溢出显示省略号 */
+  text-overflow: ellipsis;
+  /* 用来控制显示行数 */
+  -webkit-line-clamp: 2;
+  /* 文字显示方式,默认水平 */
+  -webkit-box-orient: vertical;
+  /* 将盒子转为弹性盒子 */
+  display: -webkit-box;
+}
+.main .every .everyCon ul li:first-child div.itmedesc {
+  height: 78px;
+  line-height: 78px;
+  text-align: center;
+  background: url("../img/uploads/22.jpg") no-repeat 20px center;
+  background-size: 62px;
+}
+.main .sale .makeupcon {
+  width: 100%;
+  overflow: hidden;
+}
+.main .sale .makeupcon .makeupleft {
+  width: 30%;
+  height: 540px;
+  position: relative;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.main .sale .makeupcon .makeupleft .conimg {
+  width: 100%;
+  height: 100%;
+}
+.main .sale .makeupcon .makeupleft .conimg a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.main .sale .makeupcon .makeupleft .conimg a img {
+  width: 100%;
+  height: 540px;
+  display: block;
+}
+.main .sale .makeupcon .makeupleft .tip {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main .sale .makeupcon .makeupleft .tip a {
+  display: block;
+  width: 28%;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  float: left;
+  background-color: #fff;
+  margin-top: 16px;
+}
+.main .sale .makeupcon .makeupleft .tip a:hover {
+  color: #ff4354;
+}
+.main .sale .makeupcon .makeupmid {
+  width: 50%;
+  height: 540px;
+  padding-bottom: 40px;
+}
+.main .sale .makeupcon .makeupmid ul {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.main .sale .makeupcon .makeupmid ul li {
+  width: 50%;
+  height: 270px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background-color: #fff;
+}
+.main .sale .makeupcon .makeupmid ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.main .sale .makeupcon .makeupmid ul li a img {
+  margin-top: 10px;
+}
+.main .sale .makeupcon .makeupmid ul li a h3 {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.main .sale .makeupcon .makeupmid ul li a p {
+  font-size: 15px;
+}
+.main .sale .makeupcon .makeupright {
+  width: 20%;
+  height: 540px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.main .sale .makeupcon .makeupright .mTitle {
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  line-height: 60px;
+}
+.main .sale .makeupcon .makeupright .mTitle span {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 16px;
+}
+.main .sale .makeupcon .makeupright .mTitle i {
+  display: block;
+  width: 8px;
+  height: 8px;
+  margin-top: 25px;
+  background-color: #999;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+.main .sale .makeupcon .makeupright .mTitle i.active {
+  background-color: #404040;
+}
+.main .sale .makeupcon .makeupright .mrcon {
+  height: 480px;
+  width: 100%;
+  position: relative;
+}
+.main .sale .makeupcon .makeupright .mrcon ul {
+  height: 480px;
+  width: 100%;
+  position: absolute;
+}
+.main .sale .makeupcon .makeupright .mrcon ul li {
+  height: 120px;
+  border-bottom: 1px solid #ccc;
+}
+.main .sale .makeupcon .makeupright .mrcon ul li:last-child {
+  border: none;
+}
+.main .sale .makeupcon .makeupright .mrcon ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 30px 10px;
+  box-sizing: border-box;
+}
+.main .sale .makeupcon .makeupright .mrcon ul li a .mrcomImg {
+  width: 35%;
+}
+.main .sale .makeupcon .makeupright .mrcon ul li a .mrcomImg img {
+  width: 100%;
+  display: block;
+}
+.main .sale .makeupcon .makeupright .mrcon ul li a .mrcondesc {
+  width: 65%;
+}
+.main .sale .makeupcon .makeupright .mrcon ul li a .mrcondesc p {
+  margin-bottom: 10px;
+  /* 设置超出部分的显示方式 */
+  overflow: hidden;
+  /* 在文字末尾换行 */
+  word-break: break-all;
+  /* 文字溢出显示省略号 */
+  text-overflow: ellipsis;
+  /* 用来控制显示行数 */
+  -webkit-line-clamp: 2;
+  /* 文字显示方式,默认水平 */
+  -webkit-box-orient: vertical;
+  /* 将盒子转为弹性盒子 */
+  display: -webkit-box;
+}
+.main .sale .makeupcon .makeupright .mrcon ul li a .mrcondesc span {
+  color: red;
+  font-size: 16px;
+  margin-right: 8px;
+}
+.main .hotbrand {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+.main .hotbrand .hotbrandTitle {
+  width: 100%;
+  padding-left: 16px;
+  box-sizing: border-box;
+  height: 48px;
+  border-bottom: 1px solid #ccc;
+  line-height: 48px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main .hotbrand .hotbrandCon {
+  width: 100%;
+}
+.main .hotbrand .hotbrandCon .brandItem {
+  width: 20%;
+  border-right: 1px solid #ccc;
+  height: 167px;
+  float: left;
+  box-sizing: border-box;
+}
+.main .hotbrand .hotbrandCon .brandItem:last-child {
+  border: none;
+}
+.main .hotbrand .hotbrandCon .brandItem a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.main .hotbrand .hotbrandCon .brandItem a .xin {
+  top: 10px;
+  width: 100%;
+  padding-right: 15px;
+  box-sizing: border-box;
+  text-align: right;
+  position: absolute;
+  font-size: 20px;
+  color: #ff4354;
+  font-weight: 700;
+  display: none;
+}
+.foot .foot-one {
+  height: 147px;
+  border-bottom: 1px solid #ccc;
+}
+.foot .foot-one ul {
+  width: 100%;
+  display: flex;
+}
+.foot .foot-one ul li {
+  flex: 1;
+  height: 147px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.foot .foot-one ul li .footOneItem {
+  height: 47px;
+}
+.foot .foot-one ul li .footOneItem .foorIcon {
+  height: 44px;
+  width: 44px;
+  text-align: center;
+  line-height: 44px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  color: #000;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.foot .foot-one ul li .footOneItem h3 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 700;
+}
+.foot .foot-one ul li .footOneItem p {
+  color: #000;
+}
+.foot .foot-two {
+  padding: 45px 0;
+  display: flex;
+}
+.foot .foot-two .footTwoLeft {
+  flex: 2;
+}
+.foot .foot-two .footTwoLeft .footLogo {
+  width: 100%;
+}
+.foot .foot-two .footTwoLeft .footLogo a {
+  display: block;
+  width: 100%;
+}
+.foot .foot-two .footTwoLeft .footLogo a img {
+  display: block;
+  width: 60%;
+}
+.foot .foot-two .footTwoLeft .footContact {
+  margin-top: 10px;
+}
+.foot .foot-two .footTwoLeft .footContact img {
+  vertical-align: middle;
+  margin: 0 6px;
+}
+.foot .foot-two .footTwoMid {
+  flex: 4;
+  display: flex;
+}
+.foot .foot-two .footTwoMid dl {
+  float: left;
+  flex: 1;
+}
+.foot .foot-two .footTwoMid dl dt {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.foot .foot-two .footTwoMid dl dd {
+  line-height: 29px;
+}
+.foot .foot-two .footTwoRight {
+  flex: 1;
+  text-align: center;
+}
+.foot .foot-Three {
+  background-color: #333;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  line-height: 30px;
+}
+.foot .foot-Three img {
+  vertical-align: middle;
+}
+.foot .foot-Three a {
+  color: #c2c2c2;
+}
+.foot .foot-Three .lastLinks img {
+  height: 30px;
+  margin-right: 6px;
+}
+.rightSide {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  text-align: center;
+}
+.rightSide li {
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: 700;
+}
+.rightSide li .sideCon {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+.rightSide li .sideCon:last-child {
+  border-bottom: none;
+}
+.rightSide li .item {
+  padding: 6px 0;
+  color: #999;
+  font-size: 12px;
+}
+.rightSide li .item:hover {
+  color: #ff4354;
+  cursor: pointer;
+}
+.rightSide li:hover {
+  color: #ff4354;
+  cursor: pointer;
+}
+.leftSide {
+  display: none;
+  position: fixed;
+  right: 20px;
+  border: 1px solid #ccc;
+  bottom: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+.leftSide li {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.leftSide li span {
+  display: block;
+  font-size: 20px;
+}
+.leftSide li span:hover {
+  color: #ff4354;
+  cursor: pointer;
+}
+.leftSide li:hover {
+  color: #ff4354;
+  cursor: pointer;
+}
